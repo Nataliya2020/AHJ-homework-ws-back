@@ -1,0 +1,27 @@
+{
+  "name": "ahj-16-homeworks-http-ws-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nataliya2020",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {}
+}
